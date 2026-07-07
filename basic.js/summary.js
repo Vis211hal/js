@@ -35,3 +35,20 @@ const myFunction = function(){
 console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+// stack(primitive)   heap(non primitve)
+
+let name="vishal kumar baraik"
+let anothername=name
+anothername="akash kumar baraik"
+console.log(name)
+console.log(anothername)
+let userone={
+    email: "vishllumarvk2@gmail.com",
+    upi: "user@ybl"
+}
+let usertwo=userone
+usertwo.email="akashbaraik@gmail.com"
+console.log(userone.email)
+console.log(usertwo.email)
