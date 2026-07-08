@@ -8,20 +8,25 @@ const score=67
  //   console.log(balance.toFixed(1))
 
  const othernum=123.4674544343
- console.log(othernum.toPrecision(3))
+// console.log(othernum.toPrecision(3))
 
  const hundred=10000000000
- console.log(hundred.toLocaleString(`en-IN`))
+ // console.log(hundred.toLocaleString(`en-IN`))
 
 
  // ***********MATHS*********
 
- console.log(Math)
- console.log(Math.abs(-98))
- console.log(Math.round(6.8))
-  console.log(Math.ceil(6.8))
-   console.log(Math.floor(6.8))
-    console.log(Math.sqrt(87))
+//  console.log(Math)
+//  console.log(Math.abs(-98))
+//  console.log(Math.round(6.8))
+//   console.log(Math.ceil(6.8))
+//    console.log(Math.floor(6.8))
+//     console.log(Math.sqrt(87))
 
+console.log(Math.random())
     console.log((Math.random()*10)+1)
+  console.log(Math.floor(Math.random()*10)+1)
+    const min=10
+    const max=20
+    console.log(Math.floor(Math.random() *(max-min+1))+min)
    
